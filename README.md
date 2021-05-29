@@ -40,7 +40,7 @@ Installation (Auto)
 
 ```
 $ su - user-which-executes-shirasagi-server
-$ curl https://raw.githubusercontent.com/shirasagi/shirasagi/master/bin/install.sh | bash -s example.jp
+$ curl https://raw.githubusercontent.com/1484/shirasagi/master/bin/install.sh | bash -s example.jp
 ```
 
 Installation (CentOS 7)
