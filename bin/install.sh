@@ -345,7 +345,7 @@ EOF
 
 # modify ImageMagick policy to work with simple captcha
 # see: https://github.com/diaspora/diaspora/issues/6828
-cd /etc/ImageMagick && cat << EOF | sudo patch
+cd /etc/ImageMagick-6 && cat << EOF | sudo patch
 --- policy.xml.orig     2016-12-08 13:50:47.344009000 +0900
 +++ policy.xml  2016-12-08 13:15:22.529009000 +0900
 @@ -67,6 +67,8 @@
